@@ -1,0 +1,17 @@
+node_modules/
+.vscode/
+vendor/
+download/
+data/
+static/dist/
+
+*.db
+three.exe
+three.exe*
+
+Gopkg.*
+yarn.*
+
+DEBUG
+
+
