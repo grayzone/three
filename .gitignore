@@ -11,6 +11,7 @@ three.exe*
 
 Gopkg.*
 yarn.*
+yarn-error.log
 
 DEBUG
 

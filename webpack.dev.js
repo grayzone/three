@@ -19,7 +19,7 @@ module.exports = {
   module: {
     rules: [
       {
-        test: /\.jsx?$/,
+        test: /\.(js|jsx)$/,
         exclude: /node_modules/,
         use: [
           {
@@ -45,13 +45,5 @@ module.exports = {
         ]
       }
     ]
-  },
-  devServer: {
-    port: 7777,
-    host: "localhost",
-    historyApiFallback: true,
-    noInfo: false,
-    stats: "minimal"
-    //    publicPath: publicPath
   }
 };
